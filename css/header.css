@@ -1,0 +1,106 @@
+header {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+        url(./../images/banner-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+nav {
+    padding: 1.2rem;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.navigation-inside {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 2rem;
+    color: #fff;
+    letter-spacing: 1px;
+    font-family: var(--Playfair);
+}
+
+/*nav section */
+.nav-list {
+    list-style-type: none;
+}
+.nav-item,
+.nav-link {
+    display: inline-block;
+}
+.nav-item {
+    margin: 0 15px;
+}
+.nav-link {
+    padding: 0 5px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: var(--Roboto);
+    letter-spacing: 3px;
+    cursor: pointer;
+    transition: opacity 0.4s;
+}
+.nav-link:hover {
+    opacity: 0.6;
+}
+/* End of Navigation */
+
+/*Start banner section */
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    margin-top: 9%;
+}
+.banner-title {
+    margin-bottom: 3px;
+    font-size: 5rem;
+    letter-spacing: 1.2px;
+    font-family: var(--Playfair);
+}
+.banner-title span {
+    color: var(--exDark);
+    font-family: var(--Playfair);
+}
+.banner-info p {
+    font-size: 1.2rem;
+    font-family: var(--Roboto);
+    word-spacing: 2px;
+    text-transform: capitalize;
+    margin-bottom: 18px;
+}
+
+.banner form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 2rem;
+    padding: 0.6rem 1rem;
+    width: 80%;
+    margin: 0 auto;
+}
+.banner-search-input {
+    font-size: 1.2rem;
+    font-family: var(--Roboto);
+    padding: 0.6rem 0;
+    outline: none;
+    border: none;
+}
+.search-btn {
+    font-size: 1.2rem;
+    color: var(--dark);
+    background-color: #fff;
+    padding: 0.8rem;
+    border: none;
+    cursor: pointer;
+}
+/* End of Banner Section */

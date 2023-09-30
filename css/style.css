@@ -1,15 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Quicksand:wght@400;500;600;7010&family=Roboto:wght@400;500;700;900&display=swap");
+@import url("./header.css");
+:root {
+    --dark: #3c393d;
+    --exDark: #2b2b2b;
+    --Playfair: "Playfair Display", serif;
+    --Quicksand: "Quicksand", sans-serif;
+    --Roboto: "Roboto", sans-serif;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: var(--Quicksand);
 }
 
 body {
-    font-family: sans-serif;
+    line-height: 1.4;
+    /*
+    font-family: 'Playfair Display', serif;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Roboto', sans-serif;
+*/
 }
 img {
     width: 100%;
+    display: block;
 }
 a {
     text-decoration: none;
+}
+
+.container {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 1.2rem;
 }
