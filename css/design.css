@@ -1,0 +1,81 @@
+.design {
+    padding-top: 85px;
+}
+
+.design-title {
+    text-align: center;
+    padding: 1rem 0;
+    margin-bottom: 42px;
+}
+.design-title h2 {
+    font-size: 2.4rem;
+    font-weight: 700;
+    font-family: var(--Playfair);
+    margin-bottom: 10px;
+}
+
+.design-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 40px;
+}
+.design-item {
+    cursor: pointer;
+    overflow: hidden;
+}
+.design-item:hover img {
+    transform: scale(1.2);
+}
+.design-item__img {
+    position: relative;
+    overflow: hidden;
+}
+.design-item__img img {
+    transition: transform 0.5s ease;
+}
+.design-item__img::before {
+    z-index: 1;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.design-item__img::after {
+    content: "Art & Design";
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-family: var(--Playfair);
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #fff;
+    z-index: 2;
+}
+.likes-box {
+    z-index: 2;
+    display: inline-block;
+    padding: 0.3rem 1rem;
+    font-size: 1rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+}
+.likes-box span {
+    color: white;
+}
+
+.design-item__title {
+    text-align: center;
+    margin: 0 0.7rem;
+    padding: 1rem;
+}
+.design-item__title a {
+    font-size: 1.2rem;
+    font-family: var(--Playfair);
+    color: var(--dark);
+}

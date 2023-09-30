@@ -73,6 +73,169 @@
             <!--End of Banner section -->
         </header>
         <!-- Header section -->
-        <div style="height: 100vh" class="div"></div>
+
+        <!--Start Design section-->
+        <section class="design" id="design">
+            <div class="container">
+                <!--Start Design Title-->
+                <div class="design-title">
+                    <h2>Recent Arts & Designs</h2>
+                    <p>RECENT ARTS & DESIGNS ON THE BLOG</p>
+                </div>
+                <!--End of Design Title-->
+
+                <!--Start Design content-->
+                <div class="design-content">
+                    <div class="design-item">
+                        <div class="design-item__img">
+                            <div class="likes-box">
+                                <i
+                                    onclick="clickLike(this)"
+                                    class="fa-solid fa-heart"
+                                ></i>
+                                <span class="like-number">22</span>
+                            </div>
+                            <img
+                                src="./images/art-design-1.jpg"
+                                alt="art design photo"
+                            />
+                        </div>
+
+                        <div class="design-item__title">
+                            <a href="#" class="design-item__info">
+                                Make An Awesome Art Portfolio For College Or
+                                University
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="design-item">
+                        <div class="design-item__img">
+                            <div class="likes-box">
+                                <i
+                                    onclick="clickLike(this)"
+                                    class="fa-solid fa-heart"
+                                ></i>
+                                <span class="like-number">22</span>
+                            </div>
+                            <img
+                                src="./images/art-design-2.jpg"
+                                alt="art design photo"
+                            />
+                        </div>
+                        <div class="design-item__title">
+                            <a href="#" class="design-item__info">
+                                Make An Awesome Art Portfolio For College Or
+                                University
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="design-item">
+                        <div class="design-item__img">
+                            <div class="likes-box">
+                                <i
+                                    onclick="clickLike(this)"
+                                    class="fa-solid fa-heart"
+                                ></i>
+                                <span class="like-number">22</span>
+                            </div>
+                            <img
+                                src="./images/art-design-3.jpg"
+                                alt="art design photo"
+                            />
+                        </div>
+                        <div class="design-item__title">
+                            <a href="#" class="design-item__info">
+                                Make An Awesome Art Portfolio For College Or
+                                University
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="design-item">
+                        <div class="design-item__img">
+                            <div class="likes-box">
+                                <i
+                                    onclick="clickLike(this)"
+                                    class="fa-solid fa-heart"
+                                ></i>
+                                <span class="like-number">22</span>
+                            </div>
+                            <img
+                                src="./images/art-design-4.jpg"
+                                alt="art design photo"
+                            />
+                        </div>
+                        <div class="design-item__title">
+                            <a href="#" class="design-item__info">
+                                Make An Awesome Art Portfolio For College Or
+                                University
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="design-item">
+                        <div class="design-item__img">
+                            <div class="likes-box">
+                                <i
+                                    onclick="clickLike(this)"
+                                    class="fa-solid fa-heart"
+                                ></i>
+                                <span class="like-number">22</span>
+                            </div>
+                            <img
+                                src="./images/art-design-5.jpg"
+                                alt="art design photo"
+                            />
+                        </div>
+                        <div class="design-item__title">
+                            <a href="#" class="design-item__info">
+                                Make An Awesome Art Portfolio For College Or
+                                University
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="design-item">
+                        <div class="design-item__img">
+                            <div class="likes-box">
+                                <i
+                                    onclick="clickLike(this)"
+                                    class="fa-solid fa-heart"
+                                ></i>
+                                <span class="like-number">22</span>
+                            </div>
+                            <img
+                                src="./images/art-design-6.jpg"
+                                alt="art design photo"
+                            />
+                        </div>
+                        <div class="design-item__title">
+                            <a href="#" class="design-item__info">
+                                Make An Awesome Art Portfolio For College Or
+                                University
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!--End of Design Title-->
+            </div>
+        </section>
+        <!--End of Design section-->
+
+        <script>
+            let isLike = false;
+
+            function clickLike(e) {
+                if (isLike == false) {
+                    e.style.color = "red";
+                }
+                if (isLike == true) {
+                    e.style.color = "#fff";
+                }
+                isLike = !isLike;
+            }
+        </script>
     </body>
 </html>
