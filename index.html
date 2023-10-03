@@ -25,9 +25,9 @@
     </head>
     <body>
         <!-- Header section -->
-        <header>
+        <header id="header">
             <!-- Nav section -->
-            <nav>
+            <nav id="NavBar">
                 <div class="container">
                     <div class="navigation-inside">
                         <div class="logo-box">
@@ -36,16 +36,18 @@
 
                         <ul class="nav-list">
                             <li class="nav-item">
-                                <a href="#" class="nav-link">Home</a>
+                                <a href="#header" class="nav-link active"
+                                    >Home</a
+                                >
                             </li>
                             <li class="nav-item">
-                                <a href="#" class="nav-link">Design</a>
+                                <a href="#design" class="nav-link">Design</a>
                             </li>
                             <li class="nav-item">
-                                <a href="#" class="nav-link">Blok</a>
+                                <a href="#blog" class="nav-link">Blog</a>
                             </li>
                             <li class="nav-item">
-                                <a href="#" class="nav-link">About</a>
+                                <a href="#about" class="nav-link">About</a>
                             </li>
                         </ul>
                     </div>
@@ -399,19 +401,54 @@
                 <!--Edn of Blog content-->
             </div>
         </section>
+        <!--End of Blog section-->
 
-        <script>
-            let isLike = false;
+        <!--Start of About Section-->
+        <section class="about" id="about">
+            <div class="container about-container">
+                <div class="about-img">
+                    <img src="./images/about-bg.jpg" alt="Samar Badriddinov" />
+                </div>
 
-            function clickLike(e) {
-                if (isLike == false) {
-                    e.style.color = "red";
-                }
-                if (isLike == true) {
-                    e.style.color = "#fff";
-                }
-                isLike = !isLike;
-            }
-        </script>
+                <div class="about-text">
+                    <div class="about-title">
+                        <h2>Samar Badriddinov</h2>
+                        <p>FULL STACK DEVELOPER</p>
+                    </div>
+
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Id totam voluptatem saepe eius ipsum nam provident
+                        sapiente, natus et vel eligendi laboriosam odit eos
+                        temporibus impedit veritatis ut, illo deserunt illum
+                        voluptate quis beatae quod. Necessitatibus provident
+                        dicta consectetur labore!
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Id totam voluptatem saepe eius ipsum nam provident
+                        sapiente, natus et vel eligendi laboriosam odit eos
+                        temporibus impedit veritatis ut, illo deserunt illum
+                        voluptate quis beatae quod. Necessitatibus provident
+                        dicta consectetur labore!
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!--End of About Section-->
+
+        <!-- Start of Footer section -->
+        <footer class="footer" id="footer">
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook"></i></a
+                ><a href="#"><i class="fab fa-twitter"></i></a
+                ><a href="#"><i class="fab fa-instagram"></i></a
+                ><a href="#"><i class="fab fa-telegram"></i></a>
+            </div>
+            <span>Full Stack blog</span>
+        </footer>
+        <!-- End of Footer section -->
+
+        <script src="./js/main.js"></script>
     </body>
 </html>

@@ -9,7 +9,7 @@ header {
 }
 nav {
     padding: 1.2rem;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.8);
 }
 .navigation-inside {
     display: flex;
@@ -49,6 +49,9 @@ nav {
 .nav-link:hover {
     opacity: 0.6;
 }
+nav a.active {
+    border-bottom: 2px solid #fff;
+}
 /* End of Navigation */
 
 /*Start banner section */
@@ -58,7 +61,7 @@ nav {
     align-items: center;
     text-align: center;
     color: #fff;
-    margin-top: 9%;
+    padding-top: 9%;
 }
 .banner-title {
     margin-bottom: 3px;

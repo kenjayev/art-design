@@ -1,5 +1,6 @@
 .blog {
     padding: 85px 0;
+    background-color: #f9f9f9;
 }
 .blog-title {
     text-align: center;
@@ -15,8 +16,7 @@
 
 .blog-content {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 40px;
 }
 
@@ -57,9 +57,15 @@
 }
 .blog-text__link {
     display: inline-block;
+    border: 3px solid var(--dark);
     background-color: var(--dark);
     color: #fff;
     font-family: var(--Roboto);
     font-size: 1.1rem;
     padding: 0.6rem 1.2rem;
+    transition: all 0.3s;
+}
+.blog-text__link:hover {
+    color: var(--dark);
+    background-color: transparent;
 }
