@@ -52,6 +52,11 @@ nav {
 nav a.active {
     border-bottom: 2px solid #fff;
 }
+.hamburger-menu {
+    display: none;
+    color: #fff;
+    font-size: 2.2rem;
+}
 /* End of Navigation */
 
 /*Start banner section */

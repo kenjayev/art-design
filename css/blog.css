@@ -1,23 +1,23 @@
 .blog {
-    padding: 85px 0;
+    padding: 5rem 0;
     background-color: #f9f9f9;
 }
 .blog-title {
     text-align: center;
     padding: 1rem 0;
-    margin-bottom: 42px;
+    margin-bottom: 2.5rem;
 }
 .blog-title h2 {
     font-size: 2.4rem;
     font-weight: 700;
     font-family: var(--Playfair);
-    margin-bottom: 10px;
+    margin-bottom: 0.6rem;
 }
 
 .blog-content {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-gap: 40px;
+    grid-gap: 2.4rem;
 }
 
 .blog-img-box {
@@ -64,6 +64,7 @@
     font-size: 1.1rem;
     padding: 0.6rem 1.2rem;
     transition: all 0.3s;
+    border-radius: 8px;
 }
 .blog-text__link:hover {
     color: var(--dark);
